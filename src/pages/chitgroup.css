@@ -1,0 +1,120 @@
+.courses1{
+    width: 100%;
+    padding: 10px;
+}
+.courses1-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.create-course{
+    background-color: rgb(33, 33, 136);
+    color: white;
+    padding: 8px 11px;
+    cursor: pointer;
+}
+.learn{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.course-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.search{
+    width: 50%;
+}
+.filter{
+    color: white;
+    background-color: #05144c;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.filter-icon{
+    margin: 9px;
+
+}
+
+.course-card{
+    margin-top: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-chitgroup{
+    width: auto; 
+    height: 180px;
+    display: flex;
+    border-top: 15px solid rgb(89, 0, 255);
+    border-bottom: 15px solid rgb(89, 0, 255);
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.share{
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 20px;
+}
+.logo-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.makenow-logo{
+    width: 70px;
+    height: 30px;
+}
+.batch{
+    align-self: center;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+.batch-details{
+    font-size: 13px;
+    color: grey;
+    padding: 0px;
+}
+.bottom-icons{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+}
+.card-icon{
+    cursor: pointer;
+}
+.card-icon:hover{
+    color: blue;
+}
+.full-card{
+    width: 360px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid grey;
+    margin: 20px;
+}
+.full-card:hover{
+    transform: scale(1.05) translateY(8px);
+    transition: 0.3s;
+}
+@media screen and (max-width:769px){
+    .courses-head{
+        flex-direction: column;
+    }
+}

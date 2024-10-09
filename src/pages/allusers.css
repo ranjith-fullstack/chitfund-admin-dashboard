@@ -1,0 +1,48 @@
+
+.inpuut123 {
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: rgb(7, 7, 7);
+    margin-top: 10px;
+  }
+  .displaay1 {
+    margin: 5px;
+    
+  }
+
+  .button-but{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(0, 175, 0);
+    border-radius: 5px;
+}
+
+table, td, th {  
+  border: 1px solid #e0dfdf;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: #dfdddd; /* Change the background color to your desired hover color */
+}
+
+.display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details {
+  text-align: center;
+}

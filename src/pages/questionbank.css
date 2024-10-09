@@ -1,0 +1,20 @@
+.question-bank{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload{
+    padding: 5px;
+    border: 1px solid grey;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.new-ques{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
